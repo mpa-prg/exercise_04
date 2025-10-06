@@ -96,7 +96,7 @@ HanoiTowers(n, fromPeg, toPeg)
 4   unusedPeg ← 6 – fromPeg – toPeg
 5   HanoiTowers(n – 1, fromPeg, unusedPeg)
 6   output "Move disc from peg fromPeg to peg toPeg"
-7   HanoiTowers(n – 1, emptyPeg, toPeg)
+7   HanoiTowers(n – 1, unusedPeg, toPeg)
 8   return
 ```
 
